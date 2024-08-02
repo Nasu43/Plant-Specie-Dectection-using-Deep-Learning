@@ -60,7 +60,7 @@ def predict_plant(image_path, label_mapping):
     return predicted_label, confidence
 
 # Streamlit app
-st.title("Plant Identification using Deep Learning")
+st.title("Plant Specie Detection using Deep Learning")
 
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
